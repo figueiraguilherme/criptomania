@@ -51,4 +51,4 @@ df = data.frame(faixa_20_29 = c(arr_20_29),faixa_30_39 = c(arr_30_39),
 df['descricao'] = rownames(df)
 
 library(writexl)
-write_xlsx(df,"C:/Users/guilh/Documents/FEA.dev/BC/dados_3t_22.xlsx")
+write_xlsx(df,"/dados_3t_22.xlsx")
